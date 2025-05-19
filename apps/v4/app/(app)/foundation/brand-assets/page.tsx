@@ -235,29 +235,21 @@ export default function BrandAssetsPage() {
                     <ColorSwatch
                       name="Primary Purple"
                       hex="#4A29A7"
-                      rgb="74, 41, 167"
-                      oklch="oklch(0.444 0.181 264.059)"
                       className="bg-primary h-24 rounded-lg"
                     />
                     <ColorSwatch
                       name="Primary Purple (Light)"
                       hex="#B4A5E4"
-                      rgb="180, 165, 228"
-                      oklch="oklch(0.75 0.105 264.752)"
                       className="bg-primary/40 h-24 rounded-lg"
                     />
                     <ColorSwatch
                       name="Primary Purple (Dark)"
                       hex="#2F1B69"
-                      rgb="47, 27, 105"
-                      oklch="oklch(0.321 0.133 264.058)"
                       className="bg-primary/90 h-24 rounded-lg"
                     />
                     <ColorSwatch
                       name="Accent"
                       hex="#D6CEFB"
-                      rgb="214, 206, 251"
-                      oklch="oklch(0.85 0.105 261.345)"
                       className="bg-accent h-24 rounded-lg"
                     />
                   </div>
@@ -269,29 +261,21 @@ export default function BrandAssetsPage() {
                     <ColorSwatch
                       name="Success"
                       hex="#10B981"
-                      rgb="16, 185, 129"
-                      oklch="oklch(0.616 0.15 155.75)"
                       className="h-24 rounded-lg bg-green-500"
                     />
                     <ColorSwatch
                       name="Warning"
                       hex="#F59E0B"
-                      rgb="245, 158, 11"
-                      oklch="oklch(0.72 0.165 71.58)"
                       className="h-24 rounded-lg bg-amber-500"
                     />
                     <ColorSwatch
                       name="Error"
                       hex="#EF4444"
-                      rgb="239, 68, 68"
-                      oklch="oklch(0.577 0.245 27.325)"
                       className="bg-destructive h-24 rounded-lg"
                     />
                     <ColorSwatch
                       name="Information"
                       hex="#3B82F6"
-                      rgb="59, 130, 246"
-                      oklch="oklch(0.565 0.182 254.14)"
                       className="h-24 rounded-lg bg-blue-500"
                     />
                   </div>
@@ -570,12 +554,10 @@ export default function BrandAssetsPage() {
 interface ColorSwatchProps {
   name: string
   hex: string
-  rgb: string
-  oklch: string
   className: string
 }
 
-function ColorSwatch({ name, hex, rgb, oklch, className }: ColorSwatchProps) {
+function ColorSwatch({ name, hex, className }: ColorSwatchProps) {
   return (
     <div className="space-y-2">
       <div className={className}></div>

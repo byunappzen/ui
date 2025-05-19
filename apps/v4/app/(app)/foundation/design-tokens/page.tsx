@@ -11,7 +11,6 @@ import { Separator } from "@/registry/new-york-v4/ui/separator"
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,

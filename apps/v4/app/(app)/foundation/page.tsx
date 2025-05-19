@@ -1,18 +1,13 @@
 import { Metadata } from "next"
 import Link from "next/link"
 import {
-  AudioWaveform,
-  BookOpen,
   Bot,
   Command,
   Download,
-  GalleryVerticalEnd,
   Layers,
   Palette,
   Ruler,
-  Settings2,
   Shuffle,
-  SquareTerminal,
   ToggleLeft,
   Type,
 } from "lucide-react"

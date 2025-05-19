@@ -64,7 +64,8 @@ export default function MotionPage() {
                   <p>
                     Motion should serve a purpose and enhance the user
                     experience, not distract from it. Every animation should
-                    help users understand what's happening in the interface.
+                    help users understand what&apos;s happening in the
+                    interface.
                   </p>
                 </div>
 
