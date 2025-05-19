@@ -1,5 +1,3 @@
-import { cn } from "@/lib/utils"
-
 // 실제 폰트를 로드하지 않고 CSS 변수만 내보냅니다
 export const fontVariables = "font-sans" // 기본 시스템 폰트 사용
 

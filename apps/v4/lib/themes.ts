@@ -1,5 +1,9 @@
 export const THEMES = [
   {
+    name: "AppZen",
+    value: "appzen",
+  },
+  {
     name: "Default",
     value: "default",
   },
