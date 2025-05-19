@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { notFound, redirect } from "next/navigation"
 
 // Available foundation pages
