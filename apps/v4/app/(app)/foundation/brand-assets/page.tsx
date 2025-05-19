@@ -53,70 +53,126 @@ export default function BrandAssetsPage() {
           <TabsContent value="logos" className="space-y-6">
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
               <AssetCard
-                title="Primary Logo"
+                title="Full Logo (Light)"
                 description="Full color AppZen logo on light background"
-                assetPath="/assets/appzen-logo-primary.svg"
+                assetPath="/appzen_logos/Type=Full logo, Color mode=Light.svg"
                 downloadFiles={[
-                  { name: "SVG", url: "/assets/appzen-logo-primary.svg" },
-                  { name: "PNG", url: "/assets/appzen-logo-primary.png" },
-                  { name: "EPS", url: "/assets/appzen-logo-primary.eps" },
+                  {
+                    name: "SVG",
+                    url: "/appzen_logos/Type=Full logo, Color mode=Light.svg",
+                  },
+                  {
+                    name: "PNG",
+                    url: "/appzen_logos/Type=Full logo, Color mode=Light.png",
+                  },
+                  {
+                    name: "PNG (2x)",
+                    url: "/appzen_logos/Type=Full logo, Color mode=Light@2x.png",
+                  },
                 ]}
               />
 
               <AssetCard
-                title="Secondary Logo"
+                title="Full Logo (Dark)"
                 description="Full color AppZen logo on dark background"
-                assetPath="/assets/appzen-logo-secondary.svg"
+                assetPath="/appzen_logos/Type=Full logo, Color mode=Dark.svg"
                 downloadFiles={[
-                  { name: "SVG", url: "/assets/appzen-logo-secondary.svg" },
-                  { name: "PNG", url: "/assets/appzen-logo-secondary.png" },
-                  { name: "EPS", url: "/assets/appzen-logo-secondary.eps" },
+                  {
+                    name: "SVG",
+                    url: "/appzen_logos/Type=Full logo, Color mode=Dark.svg",
+                  },
+                  {
+                    name: "PNG",
+                    url: "/appzen_logos/Type=Full logo, Color mode=Dark.png",
+                  },
+                  {
+                    name: "PNG (2x)",
+                    url: "/appzen_logos/Type=Full logo, Color mode=Dark@2x.png",
+                  },
                 ]}
                 dark
               />
 
               <AssetCard
-                title="Monochrome Logo"
-                description="Single color AppZen logo"
-                assetPath="/assets/appzen-logo-mono.svg"
+                title="Symbol Only (Light)"
+                description="AppZen symbol without wordmark on light background"
+                assetPath="/appzen_logos/Type=Symbol only, Color mode=Light.svg"
                 downloadFiles={[
-                  { name: "SVG", url: "/assets/appzen-logo-mono.svg" },
-                  { name: "PNG", url: "/assets/appzen-logo-mono.png" },
-                  { name: "EPS", url: "/assets/appzen-logo-mono.eps" },
+                  {
+                    name: "SVG",
+                    url: "/appzen_logos/Type=Symbol only, Color mode=Light.svg",
+                  },
+                  {
+                    name: "PNG",
+                    url: "/appzen_logos/Type=Symbol only, Color mode=Light.png",
+                  },
+                  {
+                    name: "PNG (2x)",
+                    url: "/appzen_logos/Type=Symbol only, Color mode=Light@2x.png",
+                  },
                 ]}
               />
 
               <AssetCard
-                title="Icon Only"
-                description="AppZen symbol without wordmark"
-                assetPath="/assets/appzen-icon.svg"
+                title="Symbol Only (Dark)"
+                description="AppZen symbol without wordmark on dark background"
+                assetPath="/appzen_logos/Type=Symbol only, Color mode=Dark.svg"
                 downloadFiles={[
-                  { name: "SVG", url: "/assets/appzen-icon.svg" },
-                  { name: "PNG", url: "/assets/appzen-icon.png" },
-                  { name: "EPS", url: "/assets/appzen-icon.eps" },
+                  {
+                    name: "SVG",
+                    url: "/appzen_logos/Type=Symbol only, Color mode=Dark.svg",
+                  },
+                  {
+                    name: "PNG",
+                    url: "/appzen_logos/Type=Symbol only, Color mode=Dark.png",
+                  },
+                  {
+                    name: "PNG (2x)",
+                    url: "/appzen_logos/Type=Symbol only, Color mode=Dark@2x.png",
+                  },
+                ]}
+                dark
+              />
+
+              <AssetCard
+                title="Wordmark Only (Light)"
+                description="AppZen wordmark without symbol on light background"
+                assetPath="/appzen_logos/Type=Wordmark only, Color mode=Light.svg"
+                downloadFiles={[
+                  {
+                    name: "SVG",
+                    url: "/appzen_logos/Type=Wordmark only, Color mode=Light.svg",
+                  },
+                  {
+                    name: "PNG",
+                    url: "/appzen_logos/Type=Wordmark only, Color mode=Light.png",
+                  },
+                  {
+                    name: "PNG (2x)",
+                    url: "/appzen_logos/Type=Wordmark only, Color mode=Light@2x.png",
+                  },
                 ]}
               />
 
               <AssetCard
-                title="Wordmark Only"
-                description="AppZen wordmark without symbol"
-                assetPath="/assets/appzen-wordmark.svg"
+                title="Wordmark Only (Dark)"
+                description="AppZen wordmark without symbol on dark background"
+                assetPath="/appzen_logos/Type=Wordmark only, Color mode=Dark.svg"
                 downloadFiles={[
-                  { name: "SVG", url: "/assets/appzen-wordmark.svg" },
-                  { name: "PNG", url: "/assets/appzen-wordmark.png" },
-                  { name: "EPS", url: "/assets/appzen-wordmark.eps" },
+                  {
+                    name: "SVG",
+                    url: "/appzen_logos/Type=Wordmark only, Color mode=Dark.svg",
+                  },
+                  {
+                    name: "PNG",
+                    url: "/appzen_logos/Type=Wordmark only, Color mode=Dark.png",
+                  },
+                  {
+                    name: "PNG (2x)",
+                    url: "/appzen_logos/Type=Wordmark only, Color mode=Dark@2x.png",
+                  },
                 ]}
-              />
-
-              <AssetCard
-                title="Favicon"
-                description="AppZen browser icon"
-                assetPath="/assets/appzen-favicon.svg"
-                downloadFiles={[
-                  { name: "SVG", url: "/assets/appzen-favicon.svg" },
-                  { name: "ICO", url: "/assets/appzen-favicon.ico" },
-                  { name: "PNG", url: "/assets/appzen-favicon.png" },
-                ]}
+                dark
               />
             </div>
 
@@ -130,30 +186,36 @@ export default function BrandAssetsPage() {
               <CardContent>
                 <p className="text-sm">
                   The complete logo package includes all AppZen logo variations
-                  in multiple formats (SVG, PNG, EPS) optimized for different
-                  use cases, along with usage guidelines.
+                  in multiple formats (SVG, PNG) optimized for different use
+                  cases, along with usage guidelines.
                 </p>
               </CardContent>
               <CardFooter>
-                <Button className="gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="size-4"
-                  >
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                    <polyline points="7 10 12 15 17 10" />
-                    <line x1="12" x2="12" y1="15" y2="3" />
-                  </svg>
-                  Download Logo Package (ZIP)
-                </Button>
+                <a
+                  href="/appzen_logos/appzen_logos.zip"
+                  download
+                  className="inline-flex"
+                >
+                  <Button className="gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="size-4"
+                    >
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                      <polyline points="7 10 12 15 17 10" />
+                      <line x1="12" x2="12" y1="15" y2="3" />
+                    </svg>
+                    Download Logo Package (ZIP)
+                  </Button>
+                </a>
               </CardFooter>
             </Card>
           </TabsContent>
@@ -236,25 +298,31 @@ export default function BrandAssetsPage() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button className="gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="size-4"
-                  >
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                    <polyline points="7 10 12 15 17 10" />
-                    <line x1="12" x2="12" y1="15" y2="3" />
-                  </svg>
-                  Download Color Palette (PDF)
-                </Button>
+                <a
+                  href="/appzen_logos/appzen_color_palette.pdf"
+                  download
+                  className="inline-flex"
+                >
+                  <Button className="gap-2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      className="size-4"
+                    >
+                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                      <polyline points="7 10 12 15 17 10" />
+                      <line x1="12" x2="12" y1="15" y2="3" />
+                    </svg>
+                    Download Color Palette (PDF)
+                  </Button>
+                </a>
               </CardFooter>
             </Card>
 
@@ -335,109 +403,162 @@ export default function BrandAssetsPage() {
               <CardHeader>
                 <CardTitle>Logo Usage Guidelines</CardTitle>
                 <CardDescription>
-                  Rules for using the AppZen logo correctly
+                  Follow these rules to ensure consistent brand representation
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
-                <div>
-                  <h3 className="mb-2 text-lg font-medium">Clear Space</h3>
-                  <p className="text-muted-foreground mb-4 text-sm">
-                    Always maintain adequate clear space around the logo. The
-                    minimum required clear space is equal to the height of the
-                    "A" in the AppZen wordmark.
-                  </p>
-                  <div className="bg-muted flex items-center justify-center rounded-lg p-6">
-                    <div className="border-primary/50 relative inline-block border-2 border-dashed p-8">
-                      <div className="bg-primary rounded-md px-4 py-2 text-lg font-bold text-white">
-                        AppZen Logo
+                <div className="space-y-4">
+                  <h3 className="text-lg font-medium">Clear Space</h3>
+                  <div className="flex items-center gap-6">
+                    <div className="bg-muted relative flex-shrink-0 p-8">
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="border-muted-foreground/50 absolute inset-4 border border-dashed"></div>
+                        <Image
+                          src="/appzen_logos/Type=Full logo, Color mode=Light.svg"
+                          alt="AppZen logo with clear space"
+                          width={150}
+                          height={50}
+                          className="relative z-10"
+                        />
                       </div>
                     </div>
-                  </div>
-                </div>
-
-                <div>
-                  <h3 className="mb-2 text-lg font-medium">Minimum Size</h3>
-                  <p className="text-muted-foreground mb-4 text-sm">
-                    To ensure legibility, the AppZen logo should never be used
-                    smaller than 24 pixels in height for digital applications or
-                    0.25 inches in print.
-                  </p>
-                  <div className="bg-muted flex items-center justify-center rounded-lg p-6">
-                    <div className="flex flex-col items-center">
-                      <div className="bg-primary mb-2 rounded-md px-3 py-1.5 text-sm font-bold text-white">
-                        24px
-                      </div>
-                      <p className="text-muted-foreground text-xs">
-                        Minimum Size
+                    <div className="flex-1">
+                      <p className="text-sm">
+                        Always maintain clear space equal to the height of the
+                        "Z" character around the entire logo to ensure
+                        visibility and impact.
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <div>
-                  <h3 className="mb-2 text-lg font-medium">Don&apos;ts</h3>
-                  <p className="text-muted-foreground mb-4 text-sm">
-                    To maintain brand integrity, avoid these common misuses of
-                    the logo:
-                  </p>
-                  <ul className="list-disc space-y-2 pl-5 text-sm">
-                    <li>Don&apos;t change the logo colors</li>
-                    <li>Don&apos;t distort or stretch the logo</li>
-                    <li>Don&apos;t rotate the logo</li>
-                    <li>Don&apos;t add effects (shadows, gradients, etc.)</li>
-                    <li>
-                      Don&apos;t place the logo on busy backgrounds that reduce
-                      legibility
-                    </li>
-                    <li>Don&apos;t rearrange logo elements</li>
-                  </ul>
+                <div className="space-y-4">
+                  <h3 className="text-lg font-medium">Dos and Don&apos;ts</h3>
+                  <Table>
+                    <TableHeader>
+                      <TableRow>
+                        <TableHead>Do</TableHead>
+                        <TableHead>Don&apos;t</TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      <TableRow>
+                        <TableCell>
+                          Use the primary logo on light backgrounds
+                        </TableCell>
+                        <TableCell>
+                          Modify the logo colors unless using approved
+                          variations
+                        </TableCell>
+                      </TableRow>
+                      <TableRow>
+                        <TableCell>
+                          Use the secondary logo on dark backgrounds
+                        </TableCell>
+                        <TableCell>
+                          Stretch, distort, or alter the logo proportions
+                        </TableCell>
+                      </TableRow>
+                      <TableRow>
+                        <TableCell>
+                          Maintain minimum size requirements for legibility
+                        </TableCell>
+                        <TableCell>
+                          Add effects like shadows, outlines, or gradients
+                        </TableCell>
+                      </TableRow>
+                      <TableRow>
+                        <TableCell>
+                          Use the SVG format for digital applications
+                        </TableCell>
+                        <TableCell>
+                          Place the logo on busy backgrounds that reduce
+                          visibility
+                        </TableCell>
+                      </TableRow>
+                      <TableRow>
+                        <TableCell>
+                          Ensure adequate contrast with background colors
+                        </TableCell>
+                        <TableCell>
+                          Crop or partially display the logo
+                        </TableCell>
+                      </TableRow>
+                    </TableBody>
+                  </Table>
                 </div>
 
-                <div>
-                  <h3 className="mb-2 text-lg font-medium">Logo Versions</h3>
-                  <p className="text-muted-foreground mb-4 text-sm">
-                    Use the appropriate logo version for different contexts:
-                  </p>
-                  <ul className="list-disc space-y-2 pl-5 text-sm">
-                    <li>
-                      <strong>Primary Logo:</strong> Use on light backgrounds in
-                      most applications
-                    </li>
-                    <li>
-                      <strong>Secondary Logo:</strong> Use on dark backgrounds
-                    </li>
-                    <li>
-                      <strong>Monochrome Logo:</strong> Use when color printing
-                      is unavailable
-                    </li>
-                    <li>
-                      <strong>Icon Only:</strong> Use in space-constrained
-                      environments where brand is already established
-                    </li>
-                  </ul>
+                <div className="space-y-4">
+                  <h3 className="text-lg font-medium">Minimum Size</h3>
+                  <div className="flex items-center gap-6">
+                    <div className="bg-muted flex items-center justify-center p-4">
+                      <Image
+                        src="/appzen_logos/Type=Full logo, Color mode=Light.svg"
+                        alt="AppZen logo with minimum size"
+                        width={100}
+                        height={33}
+                        className="relative z-10"
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-sm">
+                        The full logo should not be used smaller than 100px wide
+                        for digital applications or 1 inch for print. When space
+                        is limited, use the symbol-only logo.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </CardContent>
-              <CardFooter>
-                <Button className="gap-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="size-4"
-                  >
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                    <polyline points="7 10 12 15 17 10" />
-                    <line x1="12" x2="12" y1="15" y2="3" />
-                  </svg>
-                  Download Brand Guidelines (PDF)
-                </Button>
-              </CardFooter>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle>Logo File Types & Usage</CardTitle>
+                <CardDescription>
+                  Choosing the right file format for each application
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Format</TableHead>
+                      <TableHead>Best For</TableHead>
+                      <TableHead>Features</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    <TableRow>
+                      <TableCell className="font-medium">SVG</TableCell>
+                      <TableCell>
+                        Websites, digital platforms, responsive designs
+                      </TableCell>
+                      <TableCell>
+                        Vector format, infinitely scalable, small file size
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">PNG</TableCell>
+                      <TableCell>
+                        Digital applications requiring transparency
+                      </TableCell>
+                      <TableCell>
+                        Lossless quality, supports transparency
+                      </TableCell>
+                    </TableRow>
+                    <TableRow>
+                      <TableCell className="font-medium">PNG (2x)</TableCell>
+                      <TableCell>
+                        High-resolution screens, retina displays
+                      </TableCell>
+                      <TableCell>
+                        Double resolution for crisp display on high-DPI screens
+                      </TableCell>
+                    </TableRow>
+                  </TableBody>
+                </Table>
+              </CardContent>
             </Card>
           </TabsContent>
         </Tabs>
@@ -484,16 +605,16 @@ function AssetCard({
   return (
     <Card>
       <div
-        className={`flex h-48 items-center justify-center p-6 ${dark ? "bg-primary" : "bg-muted"}`}
+        className={`flex h-48 items-center justify-center p-6 ${dark ? "bg-slate-800" : "bg-muted"}`}
       >
         <div className="flex h-full w-full items-center justify-center">
-          {/* Placeholder for image - in a real app, this would be an actual image */}
-          <div
-            className={`rounded-md p-4 text-center ${dark ? "bg-primary/80 text-white" : "bg-white"}`}
-          >
-            <p className="font-bold">{title}</p>
-            <p className="text-xs">Logo Preview</p>
-          </div>
+          <Image
+            src={assetPath}
+            alt={title}
+            width={200}
+            height={100}
+            className="max-h-36 w-auto object-contain"
+          />
         </div>
       </div>
       <CardHeader>
@@ -503,9 +624,11 @@ function AssetCard({
       <CardFooter className="flex flex-col items-stretch gap-2">
         <div className="flex flex-wrap gap-2">
           {downloadFiles.map((file) => (
-            <Button key={file.name} variant="outline" size="sm">
-              {file.name}
-            </Button>
+            <a key={file.name} href={file.url} download className="inline-flex">
+              <Button variant="outline" size="sm">
+                {file.name}
+              </Button>
+            </a>
           ))}
         </div>
       </CardFooter>
