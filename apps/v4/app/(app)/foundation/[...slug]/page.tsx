@@ -1,4 +1,4 @@
-import type { NextPage } from "next"
+import { type Metadata } from "next"
 import { notFound, redirect } from "next/navigation"
 
 // Available foundation pages
@@ -13,13 +13,11 @@ const availablePages = [
   "brand-assets",
 ]
 
-interface PageProps {
-  params: {
-    slug: string[]
-  }
-}
-
-const FoundationCatchAllPage: NextPage<PageProps> = ({ params }) => {
+export default function FoundationCatchAllPage({
+  params,
+}: {
+  params: { slug: string[] }
+}) {
   const slug = params.slug[0]
 
   // If the slug is one of our valid foundation pages, redirect to it
@@ -30,5 +28,3 @@ const FoundationCatchAllPage: NextPage<PageProps> = ({ params }) => {
   // Otherwise, show 404
   return notFound()
 }
-
-export default FoundationCatchAllPage
