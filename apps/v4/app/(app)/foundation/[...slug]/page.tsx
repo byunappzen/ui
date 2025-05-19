@@ -12,12 +12,17 @@ const availablePages = [
   "brand-assets",
 ]
 
-export default function FoundationCatchAllPage({ params }: { params: any }) {
-  const slug = params.slug[0]
+export default async function FoundationCatchAllPage({
+  params,
+}: {
+  params: Promise<{ slug: string[] }>
+}) {
+  const { slug } = await params
+  const first = slug[0]
 
   // If the slug is one of our valid foundation pages, redirect to it
-  if (availablePages.includes(slug)) {
-    redirect(`/foundation/${slug}`)
+  if (availablePages.includes(first)) {
+    redirect(`/foundation/${first}`)
   }
 
   // Otherwise, show 404
