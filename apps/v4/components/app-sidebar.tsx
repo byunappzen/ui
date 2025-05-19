@@ -8,10 +8,17 @@ import {
   Bot,
   ChevronRightIcon,
   Command,
+  Download,
   GalleryVerticalEnd,
+  Layers,
+  Palette,
+  Ruler,
   Search,
   Settings2,
+  Shuffle,
   SquareTerminal,
+  ToggleLeft,
+  Type,
 } from "lucide-react"
 
 import { NavUser } from "@/registry/new-york-v4/blocks/sidebar-07/components/nav-user"
@@ -151,6 +158,48 @@ const data = {
       ],
     },
   ],
+  foundation: [
+    {
+      title: "Color",
+      url: "/app/foundation/color",
+      icon: Palette,
+    },
+    {
+      title: "Design Tokens",
+      url: "/app/foundation/design-tokens",
+      icon: Command,
+    },
+    {
+      title: "Motion",
+      url: "/app/foundation/motion",
+      icon: Shuffle,
+    },
+    {
+      title: "Object Styles",
+      url: "/app/foundation/object-styles",
+      icon: Layers,
+    },
+    {
+      title: "Spacing",
+      url: "/app/foundation/spacing",
+      icon: Ruler,
+    },
+    {
+      title: "States",
+      url: "/app/foundation/states",
+      icon: ToggleLeft,
+    },
+    {
+      title: "Typography",
+      url: "/app/foundation/typography",
+      icon: Type,
+    },
+    {
+      title: "Brand Assets",
+      url: "/app/foundation/brand-assets",
+      icon: Download,
+    },
+  ],
   components: Object.values(Index)
     .filter((item) => item.type === "registry:ui")
     .concat([
@@ -216,6 +265,21 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   </CollapsibleContent>
                 </SidebarMenuItem>
               </Collapsible>
+            ))}
+          </SidebarMenu>
+        </SidebarGroup>
+        <SidebarGroup>
+          <SidebarGroupLabel>Foundation</SidebarGroupLabel>
+          <SidebarMenu>
+            {data.foundation.map((item) => (
+              <SidebarMenuItem key={item.title}>
+                <SidebarMenuButton asChild tooltip={item.title}>
+                  <a href={item.url}>
+                    {item.icon && <item.icon />}
+                    <span>{item.title}</span>
+                  </a>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
             ))}
           </SidebarMenu>
         </SidebarGroup>
