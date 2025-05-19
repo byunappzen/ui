@@ -82,7 +82,8 @@ export default function TypographyPage() {
                     <h3 className="text-sm font-medium">Mono (Code)</h3>
                     <pre className="bg-muted mt-2 overflow-auto rounded-md p-3 text-xs">
                       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco,
-                      Consolas, "Liberation Mono", "Courier New", monospace;
+                      Consolas, &quot;Liberation Mono&quot;, &quot;Courier
+                      New&quot;, monospace;
                     </pre>
                   </div>
                 </CardContent>
@@ -259,7 +260,7 @@ export default function TypographyPage() {
                     usage="Secondary text, metadata, captions"
                   >
                     Small text is used for secondary information, metadata,
-                    labels, and helper text. It's still legible but less
+                    labels, and helper text. It&apos;s still legible but less
                     prominent than body text.
                   </TypeSample>
 
@@ -272,7 +273,7 @@ export default function TypographyPage() {
                   >
                     Extra small text should be used sparingly for tertiary
                     information like legal text, footnotes, and other secondary
-                    content that doesn't need to stand out.
+                    content that doesn&apos;t need to stand out.
                   </TypeSample>
                 </div>
               </CardContent>
@@ -378,7 +379,7 @@ export default function TypographyPage() {
                     <div className="rounded-md border p-4">
                       <p className="text-muted-foreground">
                         Additional information that complements the main content
-                        but isn't essential.
+                        but isn&apos;t essential.
                       </p>
                     </div>
                     <p className="text-muted-foreground text-sm">

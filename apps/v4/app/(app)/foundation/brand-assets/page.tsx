@@ -409,7 +409,7 @@ export default function BrandAssetsPage() {
                     <div className="flex-1">
                       <p className="text-sm">
                         Always maintain clear space equal to the height of the
-                        "Z" character around the entire logo to ensure
+                        &quot;Z&quot; character around the entire logo to ensure
                         visibility and impact.
                       </p>
                     </div>

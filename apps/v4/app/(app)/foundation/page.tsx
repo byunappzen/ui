@@ -1,7 +1,6 @@
 import { Metadata } from "next"
 import Link from "next/link"
 import {
-  Bot,
   Command,
   Download,
   Layers,
@@ -12,7 +11,6 @@ import {
   Type,
 } from "lucide-react"
 
-import { buttonVariants } from "@/registry/new-york-v4/ui/button"
 import {
   Card,
   CardContent,

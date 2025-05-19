@@ -54,63 +54,54 @@ export default function ColorPage() {
                   token="--background"
                   description="Used for page backgrounds and primary content surfaces"
                   colorClassName="bg-background dark:bg-background"
-                  textClassName="text-foreground dark:text-foreground"
                 />
                 <ColorCard
                   name="Foreground"
                   token="--foreground"
                   description="Used for text and icons on background color"
                   colorClassName="bg-foreground dark:bg-foreground"
-                  textClassName="text-background dark:text-background"
                 />
                 <ColorCard
                   name="Primary"
                   token="--primary"
                   description="Primary interactive elements, buttons, and focused states"
                   colorClassName="bg-primary dark:bg-primary"
-                  textClassName="text-primary-foreground dark:text-primary-foreground"
                 />
                 <ColorCard
                   name="Secondary"
                   token="--secondary"
                   description="Used for secondary buttons and interactive elements"
                   colorClassName="bg-secondary dark:bg-secondary"
-                  textClassName="text-secondary-foreground dark:text-secondary-foreground"
                 />
                 <ColorCard
                   name="Muted"
                   token="--muted"
                   description="Used for subtle backgrounds and non-critical content"
                   colorClassName="bg-muted dark:bg-muted"
-                  textClassName="text-muted-foreground dark:text-muted-foreground"
                 />
                 <ColorCard
                   name="Accent"
                   token="--accent"
                   description="Used for accent elements that need to stand out without primary emphasis"
                   colorClassName="bg-accent dark:bg-accent"
-                  textClassName="text-accent-foreground dark:text-accent-foreground"
                 />
                 <ColorCard
                   name="Destructive"
                   token="--destructive"
                   description="Used for error states and destructive actions"
                   colorClassName="bg-destructive dark:bg-destructive"
-                  textClassName="text-destructive-foreground dark:text-destructive-foreground"
                 />
                 <ColorCard
                   name="Border"
                   token="--border"
                   description="Used for borders and dividers"
                   colorClassName="bg-border dark:bg-border"
-                  textClassName="text-foreground dark:text-foreground"
                 />
                 <ColorCard
                   name="Ring"
                   token="--ring"
                   description="Used for focus rings around interactive elements"
                   colorClassName="bg-ring dark:bg-ring"
-                  textClassName="text-background dark:text-background"
                 />
               </div>
             </section>
@@ -127,63 +118,54 @@ export default function ColorPage() {
                   token="--blue-1"
                   description="Lightest blue, used for subtle backgrounds"
                   colorStyle={{ backgroundColor: "var(--blue-1)" }}
-                  textClassName="text-foreground"
                 />
                 <ColorCard
                   name="Blue 100"
                   token="--blue-3"
                   description="Light blue, used for hover states"
                   colorStyle={{ backgroundColor: "var(--blue-3)" }}
-                  textClassName="text-foreground"
                 />
                 <ColorCard
                   name="Blue 200"
                   token="--blue-5"
                   description="Used for secondary elements"
                   colorStyle={{ backgroundColor: "var(--blue-5)" }}
-                  textClassName="text-foreground"
                 />
                 <ColorCard
                   name="Blue 300"
                   token="--blue-7"
                   description="Medium blue"
                   colorStyle={{ backgroundColor: "var(--blue-7)" }}
-                  textClassName="text-white"
                 />
                 <ColorCard
                   name="Blue 400"
                   token="--blue-8"
                   description="Medium-dark blue"
                   colorStyle={{ backgroundColor: "var(--blue-8)" }}
-                  textClassName="text-white"
                 />
                 <ColorCard
                   name="Blue 500"
                   token="--blue-9"
                   description="Our primary blue"
                   colorStyle={{ backgroundColor: "var(--blue-9)" }}
-                  textClassName="text-white"
                 />
                 <ColorCard
                   name="Blue 600"
                   token="--blue-10"
                   description="Primary action color"
                   colorStyle={{ backgroundColor: "var(--blue-10)" }}
-                  textClassName="text-white"
                 />
                 <ColorCard
                   name="Blue 700"
                   token="--blue-11"
                   description="Dark blue for contrast"
                   colorStyle={{ backgroundColor: "var(--blue-11)" }}
-                  textClassName="text-white"
                 />
                 <ColorCard
                   name="Blue 900"
                   token="--blue-12"
                   description="Darkest blue, used for text"
                   colorStyle={{ backgroundColor: "var(--blue-12)" }}
-                  textClassName="text-white"
                 />
               </div>
             </section>
@@ -201,35 +183,30 @@ export default function ColorPage() {
                   token="--gray-1"
                   description="Background color"
                   colorStyle={{ backgroundColor: "var(--gray-1)" }}
-                  textClassName="text-foreground"
                 />
                 <ColorCard
                   name="Gray 100"
                   token="--gray-3"
                   description="Secondary background"
                   colorStyle={{ backgroundColor: "var(--gray-3)" }}
-                  textClassName="text-foreground"
                 />
                 <ColorCard
                   name="Gray 200"
                   token="--gray-5"
                   description="Border color"
                   colorStyle={{ backgroundColor: "var(--gray-5)" }}
-                  textClassName="text-foreground"
                 />
                 <ColorCard
                   name="Gray 400"
                   token="--gray-8"
                   description="Muted text color"
                   colorStyle={{ backgroundColor: "var(--gray-8)" }}
-                  textClassName="text-white"
                 />
                 <ColorCard
                   name="Gray 800"
                   token="--gray-12"
                   description="Primary text color"
                   colorStyle={{ backgroundColor: "var(--gray-12)" }}
-                  textClassName="text-white"
                 />
               </div>
             </section>
@@ -249,14 +226,12 @@ export default function ColorPage() {
                       token="--success-light"
                       description="Light green background"
                       colorStyle={{ backgroundColor: "hsl(142, 76%, 95%)" }}
-                      textClassName="text-foreground"
                     />
                     <ColorCard
                       name="Green 600"
                       token="--success"
                       description="Primary success color"
                       colorStyle={{ backgroundColor: "hsl(142, 72%, 29%)" }}
-                      textClassName="text-white"
                     />
                   </div>
                 </div>
@@ -268,14 +243,12 @@ export default function ColorPage() {
                       token="--warning-light"
                       description="Light warning background"
                       colorStyle={{ backgroundColor: "hsl(43, 100%, 95%)" }}
-                      textClassName="text-foreground"
                     />
                     <ColorCard
                       name="Orange 600"
                       token="--warning"
                       description="Primary warning color"
                       colorStyle={{ backgroundColor: "hsl(35, 92%, 33%)" }}
-                      textClassName="text-white"
                     />
                   </div>
                 </div>
@@ -287,14 +260,12 @@ export default function ColorPage() {
                       token="--error-light"
                       description="Light error background"
                       colorStyle={{ backgroundColor: "hsl(360, 100%, 95%)" }}
-                      textClassName="text-foreground"
                     />
                     <ColorCard
                       name="Red 600"
                       token="--error"
                       description="Primary error color"
                       colorStyle={{ backgroundColor: "hsl(0, 84%, 34%)" }}
-                      textClassName="text-white"
                     />
                   </div>
                 </div>
@@ -306,14 +277,12 @@ export default function ColorPage() {
                       token="--info-light"
                       description="Light info background"
                       colorStyle={{ backgroundColor: "var(--blue-1)" }}
-                      textClassName="text-foreground"
                     />
                     <ColorCard
                       name="Blue 600"
                       token="--info"
                       description="Primary info color"
                       colorStyle={{ backgroundColor: "var(--blue-10)" }}
-                      textClassName="text-white"
                     />
                   </div>
                 </div>
@@ -450,7 +419,6 @@ interface ColorCardProps {
   description: string
   colorClassName?: string
   colorStyle?: React.CSSProperties
-  textClassName?: string
   textStyle?: React.CSSProperties
 }
 
@@ -460,7 +428,6 @@ function ColorCard({
   description,
   colorClassName,
   colorStyle,
-  textClassName,
   textStyle,
 }: ColorCardProps) {
   return (
