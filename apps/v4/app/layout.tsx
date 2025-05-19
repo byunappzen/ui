@@ -78,7 +78,7 @@ export default async function RootLayout({
   children: React.ReactNode
 }>) {
   const cookieStore = await cookies()
-  const activeThemeValue = cookieStore.get("active_theme")?.value
+  const activeThemeValue = cookieStore.get("active_theme")?.value || "appzen"
   const isScaled = activeThemeValue?.endsWith("-scaled")
 
   return (
@@ -99,7 +99,7 @@ export default async function RootLayout({
       <body
         className={cn(
           "bg-background overscroll-none font-sans antialiased",
-          activeThemeValue ? `theme-${activeThemeValue}` : "",
+          `theme-${activeThemeValue}`,
           isScaled ? "theme-scaled" : "",
           fontVariables
         )}
