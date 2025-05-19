@@ -12,11 +12,7 @@ const availablePages = [
   "brand-assets",
 ]
 
-export default function FoundationCatchAllPage({
-  params,
-}: {
-  params: { slug: string[] }
-}) {
+export default function FoundationCatchAllPage({ params }: { params: any }) {
   const slug = params.slug[0]
 
   // If the slug is one of our valid foundation pages, redirect to it
