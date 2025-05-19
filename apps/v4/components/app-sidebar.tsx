@@ -161,42 +161,42 @@ const data = {
   foundation: [
     {
       title: "Color",
-      url: "/app/foundation/color",
+      url: "/foundation/color",
       icon: Palette,
     },
     {
       title: "Design Tokens",
-      url: "/app/foundation/design-tokens",
+      url: "/foundation/design-tokens",
       icon: Command,
     },
     {
       title: "Motion",
-      url: "/app/foundation/motion",
+      url: "/foundation/motion",
       icon: Shuffle,
     },
     {
       title: "Object Styles",
-      url: "/app/foundation/object-styles",
+      url: "/foundation/object-styles",
       icon: Layers,
     },
     {
       title: "Spacing",
-      url: "/app/foundation/spacing",
+      url: "/foundation/spacing",
       icon: Ruler,
     },
     {
       title: "States",
-      url: "/app/foundation/states",
+      url: "/foundation/states",
       icon: ToggleLeft,
     },
     {
       title: "Typography",
-      url: "/app/foundation/typography",
+      url: "/foundation/typography",
       icon: Type,
     },
     {
       title: "Brand Assets",
-      url: "/app/foundation/brand-assets",
+      url: "/foundation/brand-assets",
       icon: Download,
     },
   ],
